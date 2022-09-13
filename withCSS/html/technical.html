@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Technical Portfolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="../css/Style1.css" id="css-style">
+
+  </head>
+
+  <body class="body">
+    <script src="../js/functions.js"></script>
+
+    <!-- Navigation bar -->
+    <ul class="nav-bar" id="my-nav-bar">
+      <li class="nav-bar-element" >
+        <a href="./index.html">Home</a>
+      </li>
+      <li class="nav-bar-element" >
+        <a href="./technical.html">Technical Portfolio</a>
+      </li>
+      <li class="nav-bar-element" >
+        <a href="./qualifications.html">Qualifications</a>
+      </li>
+      <li class="nav-bar-element" >
+        <a href="./service.html">Service</a>
+      </li>
+      <li class="nav-bar-element" id="css-button" onclick="changeCSS()">Change CSS Style</li>
+    </ul>
+
+    <!-- Technical Portfolio -->
+    <div class="technical">
+        <div id="technical-text">
+            <h1>Technical Portfolio</h1>
+            <h2 class="projects">Technical Projects</h2>
+            <ul class="projects">
+              <li class="project-title"><em><a href="https://www.ti.com/">Texas Instruments</a></em> <br>
+                <p class="project-description">
+                  While working as an Information Technology Intern at Texas Instruments this summer, I helped to build an application in order to help catch products
+                  during the production cycle so that they did not reach customers in a defective state. Specifically, I was involved in providing the users with a 
+                  new search option that allows for a greater ability to locate and contain these defective products, for previously the only functionality available
+                  was a more general search that would likely result in overkill; that is, the prior searches would indicate to contain some functional products along
+                  with the defective ones. The functionality I was tasked with implementing solved this issue and ensured that fewer functional products were being
+                  erroneously contained. In developing this application, I was able to learn about the concepts of the front end and back end of a web application; I
+                  also learned how to use the module React in order to develop the front end, as well as Spring Framework in order to develop the API for the back end.
+                </p>
+              </li>
+              <hr>
+              <li class="project-title"><em><a href="https://people.engr.tamu.edu/sueda/courses/CSCE441/2022S/index.html">CSCE 441 - Ray Tracing</a></em> <br>
+                <p class="project-description">
+                  While taking the course CSCE 441 (Computer Graphics) in the spring of 2022, I constructed a ray tracing application using C++. This application would
+                  show 8 different scenes showing different shapes and showcasing various aspects of ray tracing, such as generating shadows and simulating reflections.
+                  The application included both simple objects, that is those that can be directly calculated by the application using an equation, and complex objects
+                  as well, meaning objects that contain an assortment of polygons that are too complex to construct mathematically but must be imported as an object
+                  file. Constructing this application helped teach me about not only about ray tracing but showcased a different way of approaching computer graphics;
+                  whereas rasterization, another popular method of computer graphics, focuses on approximating a 3D world with layered 2D planes, ray tracing focuses
+                  on producing an image through collisions directly in a 3D world.
+                </p>
+              </li>
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>

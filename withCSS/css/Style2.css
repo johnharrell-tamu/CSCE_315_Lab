@@ -1,0 +1,154 @@
+p {
+    font-size: 16px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.body {
+    background-image: url("../resources/van-gogh-39-s-the-starry-night-coronavirus-pandemic-remix.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0;
+}
+  
+.nav-bar-element {
+    float: left;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+#css-button {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10%;
+    font-size: 18px;
+}
+
+.nav-bar-element a, .nav-bar-element {
+    display: block;
+    color: rgb(226, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0%;
+    text-decoration: none;
+}
+  
+.nav-bar li:hover, .nav-bar a:hover {
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.body:not(nav-bar) {
+    margin-left: 220px;
+    margin-top: 2%;
+}
+
+.home {
+    text-align: center;
+}
+
+.home img {
+    width: auto;
+    height: 50%;
+    margin-bottom: 2%;
+}
+
+.about, .qualifications {
+    display: flex;
+    flex-direction: row;
+}
+
+#qualifications-text, #service-text {
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+#technical-text {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#about-text {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.projects {
+    list-style: none;
+}
+
+.project-description {
+    margin-left: 5%;
+}
+
+.project-title {
+    font-size: 20px;
+}
+
+.qualifications-list {
+    margin-bottom: 4%;
+}
+
+#qualifications-title {
+    margin-left: 10%;
+}
+
+.service-list {
+    margin-bottom: 4%;
+}
+
+#qualifications-text h2, #qualifications-text li {
+    width: 200%;
+}
+
+.home h1, .home p {
+    padding: 0;
+    margin: 0;
+}
+
+.home-page, .technical, .qualifications-page, .service {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.qualifications-page {
+    height: 95%;
+}
+
+.service {
+    height: 90%;
+}
+
+#welcome-text {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#qualifications-img {
+    width: 70%;
+    height: auto;
+}
+
+.qualifications-resume img {
+    display: block;
+    margin-top: 15%;
+}

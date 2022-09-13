@@ -1,0 +1,138 @@
+.body {
+    background-image: url(../resources/cool-background.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+.home img {
+    width: auto;
+    height: 50%;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.nav-bar-element, #css-button {
+    float: left;
+    border-right: 1px solid #bbb;
+    font-size: 16px;
+}
+
+#css-button {
+    border-right: none;
+    position: absolute;
+    right: 0;
+}
+
+.nav-bar-element {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav-bar-element a {
+    text-decoration: none;
+    color: #666;
+}
+
+.nav-bar-element:hover, .nav-bar-element a:hover {
+    background-color: rgb(203, 203, 203);
+    cursor: pointer;
+}
+
+.body:not(nav-bar) {
+    margin-top: 5%;
+}
+
+.home {
+    text-align: center;
+}
+
+.home p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about, .qualifications {
+    display: flex;
+    flex-direction: row;
+}
+
+#technical-text, #service-text {
+    margin-left: 10%;
+    margin-right: 35%;
+}
+
+#about-text {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#qualifications-text {
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+#qualifications-title {
+    margin-left: 10%;
+}
+
+#qualifications-resume {
+    width: 100%;
+}
+
+#qualifications-text h2, #qualifications-text li {
+    width: 200%;
+}
+
+.projects {
+    list-style: none;
+    margin-left: 10%;
+}
+
+.project-description {
+    margin-left: 5%;
+    width: 125%;
+}
+
+.project-title {
+    font-size: 20px;
+}
+
+.qualifications-list {
+    margin-bottom: 4%;
+}
+
+.service-list {
+    margin-bottom: 4%;
+}
+
+#qualifications-img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-top: 5%;
+}

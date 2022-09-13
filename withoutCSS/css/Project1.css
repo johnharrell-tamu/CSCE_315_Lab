@@ -1,0 +1,114 @@
+.body {
+    background-image: linear-gradient(to top, #5b9bfb, #98b1fc, #c2c9fc, #e4e3fd, #ffffff);
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+.home img {
+    width: 25%;
+    height: 50%;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.nav-bar-element {
+    float: left;
+    border-right: 1px solid #bbb;
+    font-size: 16px;
+}
+
+.nav-bar-element:last-child {
+    border-right: none;
+}
+
+.nav-bar-element a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar-element a:hover {
+    background-color: rgb(153, 153, 153);
+}
+
+.home {
+    text-align: center;
+}
+
+.home p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about, .qualifications {
+    display: flex;
+    flex-direction: row;
+}
+
+#technical-text, #qualifications-text, #service-text {
+    margin-left: 10%;
+    margin-right: 35%;
+}
+
+#about-text {
+    margin-left: 10%;
+}
+
+#qualifications-resume {
+    width: 100%;
+}
+
+#qualifications-text h2, #qualifications-text li {
+    width: 200%;
+}
+
+#css-toggle {
+    position: absolute;
+    right: 0;
+    margin-right: 1%;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#css-toggle:hover {
+    background-color: rgb(153, 153, 153);
+}
+
+.projects {
+    list-style: none;
+}
+
+.project-description {
+    margin-left: 5%;
+}
+
+.project-title {
+    font-size: 20px;
+}
